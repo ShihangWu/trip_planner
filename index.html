@@ -10,6 +10,12 @@
   </head>
   <body>
     <div id="app"></div>
+    <script>
+      // Redirect clean URL to hash route for GitHub Pages
+      if (!window.location.hash) {
+        window.location.hash = '/';
+      }
+    </script>
   </body>
 </html>
 
